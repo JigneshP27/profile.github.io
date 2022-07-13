@@ -13,6 +13,8 @@ import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { StarComponent } from './star/star.component';
+import { InterestsComponent } from './interests/interests.component';
+import { BlogsComponent } from './blogs/blogs.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { StarComponent } from './star/star.component';
     ExperienceComponent,
     EducationComponent,
     SkillsComponent,
-    StarComponent
+    StarComponent,
+    InterestsComponent,
+    BlogsComponent
   ],
   imports: [
     BrowserModule,

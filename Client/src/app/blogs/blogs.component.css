@@ -1,0 +1,13 @@
+.iconc{
+    color: chartreuse;
+    display: inline-block;
+    font-size: 2.5rem;
+}
+
+.iconct{
+    color: rgb(255, 60, 0);
+    display: inline-block;
+    font-size: x-large;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

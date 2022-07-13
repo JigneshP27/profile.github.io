@@ -1,0 +1,30 @@
+.interesticon{
+    font-size: 1.5rem;
+    color: rgb(216, 172, 27);
+    
+}
+.interesticon1{
+    font-size: 1.5rem;
+    color: rgb(91, 190, 230);
+    
+}
+.interesticon2{
+    font-size: 1.5rem;
+    color: rgb(224, 50, 117);
+}
+.interestDesc{
+    margin-left: 30px;
+    overflow-wrap: normal;
+}
+.smile{
+    color: rgb(224, 50, 117);
+}
+.subheadinginterests{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(140, 24, 163);
+}
+.newinterest{
+    margin-top: 10px;
+}
