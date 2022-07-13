@@ -1,18 +1,24 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-skills',
-  templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.scss']
+  selector: 'app-star',
+  templateUrl: './star.component.html',
+  styleUrls: ['./star.component.scss']
 })
-export class SkillsComponent implements OnInit {
+export class StarComponent implements OnInit {
 
   constructor() { }
+
 
   ngOnInit(): void {
   }
   stars: number[] = [1, 2, 3, 4, 5];
-  selectedValue: number = 0;
+
+  @Input()
+  selectedValue: number = 4;
+
+  @Input()
+  selectedValueText: string;
   
   countStar(star) {
       this.selectedValue = star;
